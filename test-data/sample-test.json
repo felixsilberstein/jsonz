@@ -1,52 +1,70 @@
-{
-    "_scroll_id": "DXF1ZXJ5QW5kRmV0Y2gBAAAAAA0rR5YWd2pjUmxTZ2pSbTZSX0RXVzhpaUdJQQ==",
-    "took": 1619,
-    "timed_out": false,
-    "_shards": {
-        "total": 1,
-        "successful": 1,
-        "skipped": 0,
-        "failed": 0
-    },
-    "hits": {
-        "total": {
-            "value": 18575,
-            "relation": "eq"
-        },
-        "max_score": null,
-        "hits": [
-            {
-                "_index": "apiresponse_v4",
-                "_type": "_doc",
-                "_id": " af66-022e520f1dfa",
-                "_score": null,
-                "_source": {
-                    "analysisPostId": "60628556",
-                    "provider": "facebook",
-                    "channel": {
-                        "channelName": "BrisbaneLions"
-                    },
-                    "normalizedMediaDetails": [
-                        {
-                            "packageKey": "social/fb28ae8e61654fcc86ce94a050f6612b/fb28ae8e61654fcc86ce94a050f6612b.zip"
-                        },
-                        {
-                            "packageKey": "social/7219153af1cb4a6cbdb921af14ee47c6/7219153af1cb4a6cbdb921af14ee47c6.zip"
-                        }
-                    ],
-                    "mediaDetails": [
-                        {
-                            "origUrl": "https://external.xx.fbcdn.net/safe_image.php?d=AQB7S7ayV6FMGN06&url=https%3A%2F%2Fresources.lions.com.au%2Faflc-bl%2Fphoto%2F2020%2F01%2F20%2Fbef0fb12-a930-4416-8523-fc04f21a5c83%2FDDHeader.jpg&_nc_hash=AQDLhASx7MLaqzVN"
-                        },
-                        {
-                            "origUrl": "https://external.xx.fbcdn.net/safe_image.php?d=AQCHOfpJkV60AbNT&w=630&h=630&url=https%3A%2F%2Fresources.lions.com.au%2Faflc-bl%2Fphoto%2F2020%2F01%2F20%2Fbef0fb12-a930-4416-8523-fc04f21a5c83%2FDDHeader.jpg&cfs=1&_nc_hash=AQB43WXax1b4kYgk"
-                        }
-                    ]
-                },
-                "sort": [
-                    -9223372036854775808
-                ]
-            }
-        ]
-    }
-}
+[
+	{
+		"id": "0001",
+		"type": "donut",
+		"name": "Cake",
+		"ppu": 0.55,
+		"batters":
+			{
+				"batter":
+					[
+						{ "id": "1001", "type": "Regular" },
+						{ "id": "1002", "type": "Chocolate" },
+						{ "id": "1003", "type": "Blueberry" },
+						{ "id": "1004", "type": "Devil's Food" }
+					]
+			},
+		"topping":
+			[
+				{ "id": "5001", "type": "None" },
+				{ "id": "5002", "type": "Glazed" },
+				{ "id": "5005", "type": "Sugar" },
+				{ "id": "5007", "type": "Powdered Sugar" },
+				{ "id": "5006", "type": "Chocolate with Sprinkles" },
+				{ "id": "5003", "type": "Chocolate" },
+				{ "id": "5004", "type": "Maple" }
+			]
+	},
+	{
+		"id": "0002",
+		"type": "donut",
+		"name": "Raised",
+		"ppu": 0.55,
+		"batters":
+			{
+				"batter":
+					[
+						{ "id": "1001", "type": "Regular" }
+					]
+			},
+		"topping":
+			[
+				{ "id": "5001", "type": "None" },
+				{ "id": "5002", "type": "Glazed" },
+				{ "id": "5005", "type": "Sugar" },
+				{ "id": "5003", "type": "Chocolate" },
+				{ "id": "5004", "type": "Maple" }
+			]
+	},
+	{
+		"id": "0003",
+		"type": "donut",
+		"name": "Old Fashioned",
+		"ppu": 0.55,
+		"batters":
+			{
+				"batter":
+					[
+						{ "id": "1001", "type": "Regular" },
+						{ "id": "1002", "type": "Chocolate" }
+					]
+			},
+		"topping":
+			[
+				{ "id": "5001", "type": "None" },
+				{ "id": "5002", "type": "Glazed" },
+				{ "id": "5003", "type": "Chocolate" },
+				{ "id": "5004", "type": "Maple" }
+			]
+	}
+]
